@@ -91,9 +91,5 @@ void levelOrder(TreeNode* root){
 };
 
 int main(){
-    TreeNode* root = new TreeNode();
-
-    root->data = 1;
-
     return 0;
-}
+} 
