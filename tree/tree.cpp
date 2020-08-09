@@ -50,7 +50,7 @@ void inOrder(TreeNode* root){
     }
 }
 
-void preOrder(TreeNode* root){
+void postOrder(TreeNode* root){
     stack<TreeNode*> stk;
     TreeNode* prev = NULL;
     do{
